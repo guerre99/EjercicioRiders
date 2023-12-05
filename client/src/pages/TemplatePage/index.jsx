@@ -1,7 +1,7 @@
-import * as React from "react";
-import { Link } from "react-router-dom";
-import { Button, Stack, Typography, CircularProgress } from "@mui/material";
-import { Add } from "@mui/icons-material";
+import * as React from 'react'
+import { Link } from 'react-router-dom'
+import { Button, Stack, Typography, CircularProgress } from '@mui/material'
+import { Add } from '@mui/icons-material'
 
 function TemplatePage() {
   return (
@@ -24,6 +24,6 @@ function TemplatePage() {
 
       <p>Entity List</p>
     </Stack>
-  );
+  )
 }
-export default TemplatePage;
+export default TemplatePage

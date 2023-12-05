@@ -1,12 +1,17 @@
-import { Outlet } from "react-router-dom";
+import { Outlet } from 'react-router-dom'
 
-import { Container } from "@mui/material";
+import { Container } from '@mui/material'
 
-import { Navbar } from "components";
-import { ToastContainer } from "react-toastify";
+import { Navbar } from 'components'
+import { ToastContainer } from 'react-toastify'
 function RootLayout() {
   return (
-    <Container display="flex" maxWidth="xxl" disableGutters>
+    <Container
+      sx={{ backgroundColor: '#EFF1F7' }}
+      display="flex"
+      maxWidth="xxl"
+      disableGutters
+    >
       <Navbar />
 
       <Container maxWidth="xl" sx={{ mt: 5 }}>
@@ -26,6 +31,6 @@ function RootLayout() {
         theme="colored"
       />
     </Container>
-  );
+  )
 }
-export default RootLayout;
+export default RootLayout
